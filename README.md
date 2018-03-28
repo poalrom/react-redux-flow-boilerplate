@@ -1,5 +1,7 @@
 # Boilerplate for projects in React-Redux-Flow stack
 
+> Fully compatible with [react-ui-lib-boilerplate](https://github.com/poalrom/react-ui-lib-boilerplate)
+
 ## What is this?
 
 This is a prepared flow with convenient utils for building your own apps.
