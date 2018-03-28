@@ -1,0 +1,42 @@
+@keyframes spin
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+.button
+  background-color: hsl(221, 44%, 52%)
+  border: none
+  border-radius: 3px
+  color: #fff
+  cursor: pointer
+  font-size: 15px
+  line-height: 1.125
+  padding: 12px 32px
+  position: relative
+
+  &:hover,
+  &:focus
+    background-color: hsl(221, 44%, 47%)
+    outline: none
+
+  &:active
+    background-color: hsl(221, 44%, 42%)
+
+  &_disabled,
+  &_disabled:hover,
+  &_disabled:focus,
+  &_disabled:active
+    background-color: hsl(221, 44%, 62%)
+    cursor: auto
+
+  &_loading
+    &:after
+      animation: spin 1s linear infinite
+      background-image: url(loader.svg)
+      content: ''
+      display: block
+      height: 16px
+      position: absolute
+      right: 8px
+      top: 12px
+      width: 16px

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`onClick not triggered on disabled button 1`] = `
+<button
+  className="button button_disabled"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  Disabled button
+</button>
+`;
+
+exports[`onClick triggered 1`] = `
+<button
+  className="button"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  Clickable button
+</button>
+`;
+
+exports[`render a button 1`] = `
+<button
+  className="button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Simple button
+</button>
+`;
+
+exports[`render a button with custom classname 1`] = `
+<button
+  className="button custom-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Custom button
+</button>
+`;
+
+exports[`render a disabled button 1`] = `
+<button
+  className="button button_disabled"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  Disabled button
+</button>
+`;
+
+exports[`render a loading button 1`] = `
+<button
+  className="button"
+  disabled={false}
+  isLoading={true}
+  onClick={[Function]}
+  type="button"
+>
+  Button with loader
+</button>
+`;
+
+exports[`render a submit button 1`] = `
+<button
+  className="button"
+  disabled={false}
+  onClick={[Function]}
+  type="submit"
+>
+  Submit button
+</button>
+`;
